@@ -7,7 +7,7 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-      - name:  depoly via ssh
+      - name:  depoly via ssh key
         uses: applyboy/ssh-action@v1  
         with:
          host: ${{secrets.EC2_HOST}}
